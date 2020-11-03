@@ -123,7 +123,7 @@ public class MyStringStackTest extends TestCase {
         String o1 = null;  
         MyStringStack stack = new MyStringStack();
         assertTrue (stack.isEmpty());
-        stack.push (s1);
+        stack.push (s1)
         try {
             o1 = stack.pop ();
             assertSame (s1, o1);
